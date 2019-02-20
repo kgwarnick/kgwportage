@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+<email>118844595+kgwarnick@users.noreply.github.com</email>
+</maintainer>
+<longdescription lang="en">
+DAB/DAB+ radio
+</longdescription>
+<use>
+  <flag name="rtlsdr">Support RealTek RTL2832U DVB-T stick (dabstick)</flag>
+  <flag name="hackrf">Support HackRF One</flag>
+  <flag name="sdrplay">Support SDRplay (RSP I, RSP II)</flag>
+  <flag name="airspy">Support Airspy (and Airspy mini)</flag>
+  <flag name="tryepg">Handle EPG decoding from MOT data</flag>
+  <flag name="qtaudio">Use QT Audio rather than portaudio</flag>
+</use>
+</pkgmetadata>
