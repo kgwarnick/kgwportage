@@ -1,9 +1,9 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 DESCRIPTION="A DAB/DAB+ Software Radio"
 HOMEPAGE="https://www.welle.io/"
@@ -29,5 +29,5 @@ src_configure() {
 	local mycmakeargs=(
 		-DRTLSDR="$(usex rtlsdr 1 0)"
 	)
-	cmake-utils_src_configure
+	cmake_src_configure
 }
