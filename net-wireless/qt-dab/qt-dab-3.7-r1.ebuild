@@ -1,9 +1,9 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
-inherit cmake-utils
+inherit cmake
 
 DESCRIPTION="Software DAB/DAB+ decoder"
 HOMEPAGE="https://github.com/JvanKatwijk/qt-dab"
@@ -40,11 +40,11 @@ src_configure() {
 		$(usex tryepg "-DTRY_EPG=ON" "-UTRY_EPG")
 		$(usex qtaudio "-DQT_AUDIO=ON" "-UQT_AUDIO")
 	)
-	cmake-utils_src_configure
+	cmake_src_configure
 }
 
 src_install() {
-	cmake-utils_src_install
+	cmake_src_install
 	dodoc ../README.md
 	dodoc ../docs/qt-dab.pdf
 }
