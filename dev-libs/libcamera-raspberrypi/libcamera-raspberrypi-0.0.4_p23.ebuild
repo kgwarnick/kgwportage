@@ -9,7 +9,7 @@ DESCRIPTION="libcamera (Raspberry Pi fork)"
 HOMEPAGE="https://github.com/raspberrypi/libcamera"
 SRC_URI="https://github.com/raspberrypi/libcamera/archive/refs/tags/release-v0.0.4+23-06bbff9c.tar.gz -> ${PF}.tar.gz"
 
-LICENSE="LGPL2.1+"
+LICENSE="libcamera-20200626"
 SLOT="0"
 KEYWORDS="~amd64 ~arm"
 IUSE="+cam gstreamer"
