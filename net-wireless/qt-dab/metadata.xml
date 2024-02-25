@@ -9,10 +9,15 @@ DAB/DAB+ radio
 </longdescription>
 <use>
   <flag name="rtlsdr">Support RealTek RTL2832U DVB-T stick (dabstick)</flag>
+  <flag name="rtltcp">Support rtl_tcp server</flag>
   <flag name="hackrf">Support HackRF One</flag>
   <flag name="sdrplay">Support SDRplay (RSP I, RSP II)</flag>
+  <flag name="sdrplay-v2">Support SDRplay RSP v2 devices</flag>
+  <flag name="sdrplay-v3">Support SDRplay RSP v3 devices</flag>
   <flag name="airspy">Support Airspy (and Airspy mini)</flag>
+  <flag name="soapysdr">Support Soapy SDR devices</flag>
   <flag name="tryepg">Handle EPG decoding from MOT data</flag>
   <flag name="qtaudio">Use QT Audio rather than portaudio</flag>
+  <flag name="fdk-aac">Use fdk-aac rather than faad for AAC decoding</flag>
 </use>
 </pkgmetadata>
