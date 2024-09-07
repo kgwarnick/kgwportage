@@ -3,7 +3,7 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_10 python3_11 )
+PYTHON_COMPAT=( python3_10 python3_11 python3_12 python3_13 )
 inherit python-any-r1 scons-utils
 
 DESCRIPTION="Userspace Raspberry Pi PWM library for WS281X LEDs"
