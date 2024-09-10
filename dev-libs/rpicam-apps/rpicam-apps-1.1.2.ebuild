@@ -6,8 +6,8 @@ EAPI=8
 inherit cmake
 
 DESCRIPTION="libcamera-based command line apps"
-HOMEPAGE="https://github.com/raspberrypi/libcamera-apps"
-SRC_URI="https://github.com/raspberrypi/libcamera-apps/archive/refs/tags/v1.1.2.tar.gz -> ${PF}.tar.gz"
+HOMEPAGE="https://github.com/raspberrypi/rpicam-apps"
+SRC_URI="https://github.com/raspberrypi/rpicam-apps/archive/refs/tags/v1.1.2.tar.gz -> ${PF}.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"
