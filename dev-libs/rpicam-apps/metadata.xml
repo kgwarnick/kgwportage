@@ -8,5 +8,8 @@
 </longdescription>
 <use>
   <flag name="drm">Support for DRM preview window</flag>
+  <flag name="libav">libav encoder integration</flag>
+  <flag name="opencv">Use OpenCV-based post-processing stages</flag>
+  <flag name="tflite">Use TensorFlow Lite post-processing stages</flag>
 </use>
 </pkgmetadata>
